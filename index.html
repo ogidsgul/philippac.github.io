@@ -1,11 +1,186 @@
 <!DOCTYPE html>
 <html>
- <head>
-<title> SGUL OGID website <title/>
- <link rel="stylesheet" type="text/css" href="https://github.com/philippac/philippac.github.io/tree/master/style.css"/>
- </head>
-<body>  
+<head>
+<title> SGUL OGID website </title>
+ <style>
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../gene.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+ul{
+  float: left;
+  list-style-type:none;
+  margin-top: 25px;
+}
+ul li{ display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: SeaShell;
+  padding: 5px 20px;
+  border:1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: SeaShell;
+  color: #000;
+}
+.logo img{
+  float:right;
+  width:200px;
+  height:150px;
+  margin-top:10px;
+  margin-right: 10px;
+}
+.main{
+  max width:1200px;
+}
+
+.title h1{
+  color:SeaShell;
+  text-align: center;
+  font-size: 70px;
+}
+
+
+.WHO img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+margin-bottom: 50px;
+  width:500px;
+  height:300px;
+}
+.WHO h2{
+  color: SeaShell;
+  text-align: center;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+.WHO p{
+  color: Navy;
+  text-align: center;
+  background-color: SeaShell;
+  font-size:150%;
+  margin-bottom: 75px;
+  padding: 20px;
+  border-radius: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border 2px #000;
+}
+
+
+.MEET h2{
+color: SeaShell;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+.MEET table {
+  color:Navy;
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 75px;
+}
+
+td, th {
+  border: 1px solid black;
+  background-color:SeaShell;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: OldLace;
+  }
+tr:nth-child(odd) {
+  background-color: OldLace;
+  }
+
+.photos h2{
+  color: SeaShell;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.photos h3{
+  color: SeaShell;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.photos img{
+  width:200px;
+  height:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:25px;
+}
+.photos p{
+ color: Navy;
+ background-color: SeaShell;
+ text-align:center;
+ margin-bottom: 25px;
+ width: 60%;
+ padding: 20px;
+ border-radius: 25px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.btn{
+  border: 1px solid SeaShell;
+  padding: 10px 30px;
+  color: SeaShell;
+  text-decoration: none;
+  transition:0.6s ease;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 115px;
+
+}
+.btn:hover{
+  background-color: SeaShell;
+  color: #000;
+}
+
+.DOC h2{
+  color: SeaShell;
+  text-align: center;
+  margin-top:50px;
+  margin-bottom: 25px;
+}
+
+.CON h2{
+  margin-top:50px;
+  margin-bottom:25px;
+  color: SeaShell;
+}
+.CON p{
+  color: SeaShell;
+}
+ 
+ </style>
+</head>
+
+<body>
   <header>
+
     <div class="main">
       <div class="logo">
         <img src="sgul2.jpg" alt="sgul">
@@ -18,27 +193,25 @@
   <li><a href="#Con" > Contact us </a> <li>
       </ul>
    <div class="title">
-   
      <h1 >
-    <ins>O</ins>ver<ins>G</ins>rowth and <ins>I</ins>ntellectual <ins>D</ins>isability research
-     <br> 
-     <br> at St George's, University of London</h1> 
-      </div>
-<div class="WHO">    
-  
-  <h2 id="WAW" "> Who are we? </h2>
-                                     
+    <ins>O</ins>ver<ins>G</ins>rowth and <ins>I</ins>ntellectual <br> <ins>D</ins>isability syndromes,
+     <br> at St George's, University of London.</h1>
+</div>
+<div class="WHO">
+
+  <h2 id="WAW" ">  Who are we?  </h2>
+
 <img src="crew2.jpg" alt="crew">
-                              
+
 <p>
      Overgrowth-intellectual disability (OGID) syndromes are a group of conditions characterized by increased height and/or head circumference (≥2SD) in association with an intellectual disability. <br>
      This study, led by <a href="#KTB">Professor Kate Tatton-Brown</a>, has recruited over 2000 patients with OGID, identified new genes (DNMT3A, EZH2, PPP2R5D, and HIST1H1E), defined new clinical syndromes and translated the findings into clinical practice. <br>
     The work, in partnership with St. George’s NHS Trust, will be using the very latest genomic technologies and bioinformatics to investigate new genetic causes of OGID syndromes and define associated clinical presentations and natural history of these conditions.<br>
      These findings in turn will be integrated into clinical practice, informing patient management and genetic testing opportunities through NHS diagnostic laboratories. <br>
   </div>
-                                      
+
  <div class="MEET">
-                  
+
 <h2 id="DT" >Meet the team:</h2>
    <table >
   <tr>
@@ -48,92 +221,92 @@
     <tr>
     <td><a href="#KTB">Professor Kate Tatton-Brown</a></td>
     <td>Project lead</td>
-  </tr>                   
-  
+  </tr>
+
    <tr>
     <td><a href="#KE">Dr Kate Everett</a></td>
     <td>Project lead</td>
-  </tr> 
+  </tr>
     <tr>
     <td><a href="#AP">Dr Alan Pittman</a></td>
     <td>Bioinformation</td>
-  </tr>                    
+  </tr>
     <tr>
     <td><a href="#PC">Philippa Curry</a></td>
     <td>Research assistant</td>
-  </tr> 
+  </tr>
     <tr>
     <td><a href="#CC">Dr Chris Carroll</a></td>
-    <td>Functional models geneticist</td>
-  </tr>  
+    <td>Collabotrating scientist</td>
+  </tr>
   <tr>
   <td><a href="#JS">Jesitha Sivananthan</a></td>
-  <td>Project coordinator</td>                                   
-</table> 
+  <td>Project coordinator</td>
+</table>
      </div>
-                   
-<div class="photos">                  
-<h2 id="pho">Team photos:</h2>  
-                                    
-<h3> Professor Kate Tatton-Brown </h3>                                                                                        
+
+<div class="photos">
+<h2 id="pho">Team photos:</h2>
+
+<h3> Professor Kate Tatton-Brown </h3>
 <img id="KTB" title="KTattonBrown" src="ktb.jpg" alt="ktb">
 <p >
 Professor Kate Tatton Brown is a consultant in clinical genetics. <br>
 She has a particular interest in paediatric genetic disorders, <br>
- growth disorders, endocrine disorders and paediatric cancer genetics. </p>                                     
-                                                                                                                                           
-<h3 > Dr Kate Everett </h3>                                                                                
+ growth disorders, endocrine disorders and paediatric cancer genetics. </p>
+
+<h3 > Dr Kate Everett </h3>
 <img id="KE"  title="Keverett" src="keverett.jpg" alt="keverett">
- <p >    
+ <p >
  Dr Everett's research focuses primarily on neurogenetics, <br>
  with an emphasis on identifying the genetic cause of neurodevelopmental disorders. <br>
  Since joining St George's in 2010, she has established research links <br>
  with the clinical genetics team at St George's University Hospital NHS Trust. </p>
-                                                                           
- <h3 > Dr Alan Pittman </h3>                                                                                
+
+ <h3 > Dr Alan Pittman </h3>
 <img id="AP"  title="Apittman" src="apittman2.jpg" alt="apittman">
- <p >    
+ <p >
  Dr Alan Pittman is a lecturer in Bioinformatics at St. Georges University of London. <br>
   He has broad research interests ranging from human genomics, rare-diseases and population genetics, <br>
  with a particular emphasis on omics technologies and their applications, <br>
- including, whole-exome sequencing, whole-genome sequencing, genetic mosaicism detection and functional genomics. </p>                                                                         
-                                                                          
-  <h3 > Philippa Curry </h3>                                                                                       
-<img id="PC"  title="Pcurry" src="pcurry.jpg" alt="pcurry"> 
-<p >  
+ including, whole-exome sequencing, whole-genome sequencing, genetic mosaicism detection and functional genomics. </p>
+
+  <h3 > Philippa Curry </h3>
+<img id="PC"  title="Pcurry" src="pcurry.jpg" alt="pcurry">
+<p >
  Philippa Curry is a research assistant working on the project, <br>
- focussing on investigating the genetics of OGID syndromes. </p>                                                                        
-                                                                                           
-  <h3 > Dr Chris Carroll </h3>                                                                                 
-<img id="CC"  title="Ccarroll" src="cc.jpg" alt="ccarroll"> 
+ focussing on investigating the genetics of OGID syndromes. </p>
+
+  <h3 > Dr Chris Carroll </h3>
+<img id="CC"  title="Ccarroll" src="cc.jpg" alt="ccarroll">
  <p >
  Dr Chris Carroll and his team use CRISPR/Cas9 genome editing technologies<br>
  to gain a more complete understanding of peadiatric diseases, <br>
  particularly focussing on mitochondrial disorders. </p>
- 
- <h3 title="JSivananthan" id="JS" > Jesitha Sivananthan </h3> 
- <p >                                             
+
+ <h3 title="JSivananthan" id="JS" > Jesitha Sivananthan </h3>
+ <p >
  Jesitha Sivananthan is the project coordinator and secretary for <a href="#KTB">Professor Kate Tatton-Brown</a>. </p>
- 
+
                                                                                 </div>
-  <div class="DOC">                                                                              
- <h2 id="Doc" > Important documents and Links </h2> 
+  <div class="DOC">
+ <h2 id="Doc" > Important documents and Links </h2>
    <a href="https://github.com/philippac/philippac.github.io/blob/master/OGID%20RULES2.docx" class="btn" target="_blank" title="To download document:Follow the link and click download." >REGISTER INTEREST<a/>
-  <a href="https://www.sgul.ac.uk/about/our-institutes/molecular-and-clinical-sciences/research-centres/genetics-research-centre/rare-disease-genetics" class="btn" target="_blank" > The <abbr title="St George's, University of London">SGUL</abbr> research webpage </a>                                
+  <a href="https://www.sgul.ac.uk/about/our-institutes/molecular-and-clinical-sciences/research-centres/genetics-research-centre/rare-disease-genetics" class="btn" target="_blank" > The <abbr title="St George's, University of London">SGUL</abbr> research webpage </a>
 <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Tatton-Brown+K%5BAuthor%5D" class="btn" target="_blank" > Prof. Tatton-Brown <abbr title="Overgrowth and Intellectual Disability"> OGID</abbr> publications </a>
   </div>
-  
-                                                                       
-   <div class="CON">                                       
+
+
+   <div class="CON">
 <h2 id="Con" > Contact us: </h2>
-<p > Email address: <i>OGID@SGUL.ac.uk</i></p>                             
+<p > Email address: <i>OGID@SGUL.ac.uk</i></p>
  <p >
 St George's, University of London <br>
 Cranmer Terrace <br>
 London <br>
-SW17 0RE   </p>                           
+SW17 0RE   </p>
     </div>
  </div>
-</header>                                
-</body>                                       
+</header>
+</body>
 </html>
